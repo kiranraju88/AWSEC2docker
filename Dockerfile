@@ -1,7 +1,7 @@
 # Install Alphine
 FROM alpine:latest
 
-MAINTAINER Kiran.raju@cognizant.com
+MAINTAINER Kiran.raju@hotmail.com
 
 ARG JMETER_VERSION="5.1.1"
 ENV JMETER_HOME /opt/apache-jmeter-${JMETER_VERSION}
