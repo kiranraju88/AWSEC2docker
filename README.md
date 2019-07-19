@@ -31,7 +31,7 @@ The Docker image will accept the same parameters as ``jmeter`` itself, assuming
 you run JMeter non-GUI with ``-n``.
 
 There is a shorthand [run.sh](run.sh) command.
-See [test.sh](test.sh) for an example of how to call [run.sh](run.sh).
+See [executetest.sh](executetest.sh) for an example of how to call [run.sh](run.sh).
 
 ## User Defined Variables
 
@@ -44,7 +44,7 @@ image via [run.sh](run.sh).
 
 See also: http://blog.novatec-gmbh.de/how-to-pass-command-line-properties-to-a-jmeter-testplan/
 
-## Do it for real: detailed build/run/test
+## Do it for real: detailed build/run/executetest
 
 
 
@@ -71,10 +71,10 @@ See also: http://blog.novatec-gmbh.de/how-to-pass-command-line-properties-to-a-j
    
    <tt>Successfully tagged jmeter:5.1.1</tt>
 
-1. Run the test script:
+1. Run the executetest script:
 
    ```
-   ./test.sh
+   ./executetest.sh
    ```
 
    If you view the script, note it invokes the <strong>run.sh</strong> script file stored at the repo's root. View that file to see that it specifies docker image commands.
