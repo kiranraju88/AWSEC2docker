@@ -39,7 +39,7 @@ This is a standard facility of JMeter: settings in a JMX test script
 may be defined symbolically and substituted at runtime via the commandline.
 These are called JMeter User Defined Variables or UDVs.
 
-See [test.sh](test.sh) and the [1CApp](/1CApp.jmx) for an example of UDVs passed to the Docker 
+See [executetest.sh](executetest.sh) and the [1CApp](/1CApp.jmx) for an example of UDVs passed to the Docker 
 image via [run.sh](run.sh).
 
 See also: http://blog.novatec-gmbh.de/how-to-pass-command-line-properties-to-a-jmeter-testplan/
@@ -97,7 +97,7 @@ See also: http://blog.novatec-gmbh.de/how-to-pass-command-line-properties-to-a-j
    * jmeter.log
    * reports folder (see below)
    * 1CApp.jmx containing the JMeter test plan.
-   * test-plan.jtl containing statistics from the run displayed by the index.html file.
+   * 1CApp.jtl containing statistics from the run displayed by the index.html file.
    
    
 1. Navigate into the <strong>report</strong> folder and open the <strong>index.html</strong> file to pop up a browser window displaying the run report. On a Mac Terminal or Linux or AWS:
