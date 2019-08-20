@@ -5,7 +5,7 @@
 
 Docker image for [Apache JMeter](http://jmeter.apache.org).
 This Docker image can be run as the ``jmeter`` command. 
-Find Images of this repo on [Docker Hub](https://hub.docker.com/r/kiranraju88/jmeter).
+Find Images of this repo on [Docker Hub](https://hub.docker.com/r/kiranraju88/jmeter_aws-ec2).
 
 ## Building
 
