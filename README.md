@@ -1,4 +1,4 @@
-[![Docker Build](https://img.shields.io/docker/automated/justb4/jmeter.svg)](https://hub.docker.com/r/kiranraju88/jmeter)
+[![Docker Build](https://img.shields.io/docker/automated/justb4/jmeter.svg)](https://hub.docker.com/r/kiranraju88/jmeter_aws-ec2)
 
 # docker-jmeter
 ## Image on Docker Hub
